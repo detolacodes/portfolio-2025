@@ -1,0 +1,31 @@
+.about_tools{
+	color:#fff;
+	display: flex;
+	flex-wrap: wrap;
+	margin:1rem 1.5rem;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.about_tools img{
+	width:100px;
+	height:100px;
+	/*border-radius:100%;*/
+	background-position: top;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 460px){
+	.about_tools{
+		display: flex;
+		justify-content:space-evenly;
+		align-items: center;
+	}
+	.about_tools div{
+		width:100%;
+		margin-top:1.5rem;
+		display: flex;
+		justify-content: space-around;
+		align-items:center;
+	}
+}

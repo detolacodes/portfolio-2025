@@ -1,0 +1,47 @@
+.service_item{
+	background:#171f38;
+	padding:30px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	column-gap: 1rem;
+	transition:all .3s ease-in-out;
+	border-radius:.5rem;
+	min-width:200px;
+}
+
+@media only screen and (max-width: 992px){
+	.service_item{
+		min-width:300px;
+	}
+}
+
+.service_item span, .service_item span i, .service_item h5{
+	background:transparent !important;
+}
+
+.service_item span i{
+	font-size:3rem;
+	color:#01d293;
+}
+/*.service_item span i:hover{
+	color:#fff;
+}*/
+
+.service_item:hover{
+	background:#01d293;
+	cursor: pointer;
+	transform: translateY(12px);
+	color:#fff;
+}
+/*
+.service_item:last-child:hover{
+	background:#01d293;
+	cursor: pointer;
+	transform: translateY(-12px);
+	color:#fff;
+}*/
+
+.service_item:hover i{
+	color:#171f38;
+}
